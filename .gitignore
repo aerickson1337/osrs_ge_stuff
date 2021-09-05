@@ -1,3 +1,12 @@
+.env
+
+### aint no one need this right
+.vscode
+
+### don't push our data files
+scripts/csv/
+scripts/csv/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
