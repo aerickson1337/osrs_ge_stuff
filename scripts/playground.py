@@ -58,7 +58,7 @@ if __name__ == "__main__":
     # with open('scripts/json/tmp/5m_sample_04_09_2021-21:53:30.json', 'r') as readfile:
     #     fiveMinData = json.load(readfile)
     fiveMinData = getDataFromEndpoint('5m')
-    with open('scripts/json/mapping.json', 'r') as readfile:
+    with open('scripts/json/tmp/mapping.json', 'r') as readfile:
         latestMapping = json.load(readfile)
 
     dataIWant = []
